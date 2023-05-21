@@ -198,7 +198,7 @@ exports.getInput = getInput;
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function setOutput(name, value) {
-    command_1.issueCommand('set-output', { name }, value);
+    command_1.issueCommand('setOutput', { name }, value);
 }
 exports.setOutput = setOutput;
 /**
